@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+* {
+  box-sizing: border-box;
+}
+body {
+  /* background-image: url(/src/part.png); */
+  /* background: rgb(189, 55, 133); */
+  min-height: 100vh;
+  display: flex;
+  font-weight: 400;
+  font-family: 'poppins';
+  overflow-x: hidden;
+}
+span {
+  font-weight: 500;
+  font-family: 'poppins';
+}
+body, html, .App, #root {
+  width: 100%;
+  height: 100%;
+}
+.auth-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+.auth-inner {
+  width: 450px;
+  margin: auto;
+  background: #FFFFFF;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  padding: 40px 55px 45px 55px;
+  border-radius: 15px;
+  transition: all .3s;
+}
+.form-control:focus {
+  border-color: #167BFF;
+  box-shadow: none;
+}
+.auth-wrapper h3 {
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+  padding-bottom: 20px;
+}
+.custom-control{
+  font-weight: 400;
+}
+.forgot-password,
+.forgot-password a {
+  text-align: right;
+  font-size: 13px;
+  padding-top: 10px;
+  color: #7F7D7D;
+  margin: 0;
+}
+.forgot-password a {
+  color: #167BFF;
+}
+.nav-link{
+   padding-left: 50%;
+    color: white;
+    list-style: none;
+    list-style-type: none;
+    font-size: large;
+    text-decoration: none;
+}
+.form-control{
+    width:300px;
+    height: 20px;
+    margin-top: 2%;
+}
+.part{
+ width: 600px;
+ height: 100px;
+}
+.part{
+ width: 600px;
+ height: 100px;
+}
+
+
+
+
+
+   
